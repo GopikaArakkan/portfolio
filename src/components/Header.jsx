@@ -541,7 +541,7 @@ const Header = () => {
         <div className="pt-4 border-t border-gray-600 dark:border-gray-700">
             <div className="flex space-x-5">
 
-            <a href="https://github.com">
+            <a href="https://github.com/GopikaArakkan">
                 <FiGithub className="h-5 w-5 text-gray-600"/>
             </a>
 
@@ -549,7 +549,7 @@ const Header = () => {
                 <FiTwitter className="h-5 w-5 text-gray-600"/>
             </a>
 
-             <a href="https://in.linkedin.com">
+             <a href="www.linkedin.com/in/gopikaarakkan1995">
                 <FiLinkedin className="h-5 w-5 text-gray-600"/>
             </a>
             </div>

@@ -243,6 +243,16 @@
 
  import { gsap } from "gsap";
  import { ScrollTrigger } from "gsap/ScrollTrigger";
+ import l from "../assets/l.png";
+import image from "../assets/image.png";
+import a from "../assets/a.png";
+ import t from "../assets/t.png";
+import b from "../assets/b.png";
+import d from "../assets/d.png";
+ import s from "../assets/s.png";
+import g from "../assets/g.png";
+import job from "../assets/job.png";
+
 
  gsap.registerPlugin(ScrollTrigger);
 
@@ -251,74 +261,77 @@
      id: 1,
     title: "Home Essentials Ecommerce Website",
      stack: "MERN Stack",
-    image: "/images/l.png",
+    image: l,
      github: "https://github.com/GopikaArakkan/Home-Essentials-Ecommerce-Website.git",
     //  live: "https://project1.onrender.com",
 },
-   {
-       id: 2,
-     title: "Static Website",
-         stack: "HTML / CSS / React",
-     image: "/images/image.png",
-     github: "https://github.com/GopikaArakkan/Static-Website.git",
-     live: "https://project2.onrender.com",
+ {
+    id: 2,
+     title: "JobTracker-Application",
+    stack: "MERN stack ",
+         image: job,
+    github: "https://github.com/GopikaArakkan/Jobtracker-Application.git",
+    //live: "https://project1.onrender.com",
    },
+   
    {
      id: 3,
      title: "Online Payment",
      stack: "MERN stack",
-     image: "/images/a.png",
+     image: a,
      github: "https://github.com/GopikaArakkan/paymentProject.git",
-     live: "https://project3.onrender.com",
+    // live: "https://project3.onrender.com",
    },
    {
      id: 4,
      title: "OTP verification",
      stack: "MERN stack",
-     image: "/images/t.png",
+     image: t,
      github: "https://github.com/GopikaArakkan/OTP-verification.git",
-     live: "https://project1.onrender.com",
+    // live: "https://project1.onrender.com",
    },
+   
    {
      id: 5,
      title: "Bootstrap-Resort",
      stack: "HTML, CSS, Bootstrap",
-     image: "/images/b.png",
+     image: b,
     github: "https://github.com/GopikaArakkan/Resort-Bootstrap.git",
-     live: "https://project2.onrender.com",
+    // live: "https://project2.onrender.com",
    },
       {
      id: 6,
      title: "Dice Game",
           stack: "HTML / CSS / JS",
-    image: "/images/d.png",
+    image: d,
     github: "https://github.com/GopikaArakkan/Dice-Game.git",
-    live: "https://project3.onrender.com",
+   // live: "https://project3.onrender.com",
   },
   {
-    id: 7,
+       id: 7,
+     title: "Static Website",
+         stack: "HTML / CSS / React",
+     image: image,
+     github: "https://github.com/GopikaArakkan/Static-Website.git",
+    // live: "https://project2.onrender.com",
+   },
+  {
+    id: 8,
      title: "Animals Sound Kit",
     stack: "HTML / CSS / JS",
-         image: "/images/s.png",
+      image: s,
     github: "https://github.com/GopikaArakkan/Animals-Sound-Kit.git",
-    live: "https://project1.onrender.com",
-   },
-   {
-    id: 8,
-     title: "Simon Game",
-    stack: "HTML / CSS / JS",
-         image: "/images/g.png",
-    github: "https://github.com/GopikaArakkan/Simon-Game.git",
-    live: "https://project1.onrender.com",
+    //live: "https://project1.onrender.com",
    },
    {
     id: 9,
-     title: "Birthday Invitation",
-    stack: "HTML / CSS ",
-         image: "/images/i.png",
-    github: "https://github.com/GopikaArakkan/Birthday-Invite.git",
-    live: "https://project1.onrender.com",
+     title: "Simon Game",
+    stack: "HTML / CSS / JS",
+         image: g,
+    github: "https://github.com/GopikaArakkan/Simon-Game.git",
+   // live: "https://project1.onrender.com",
    },
+  
   
  ];
 

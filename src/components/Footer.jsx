@@ -8,7 +8,7 @@ const Footer = () => {
 
         {/* logo and description */}
         <h2 className='text-3xl font-bold bg-gradient-to-r from-purple-400 to-purple-200 bg-clip-text text-transparent'>
-            MiladiCode
+            Gopika
         </h2>
 
         {/* scroll links */}
@@ -41,7 +41,7 @@ const Footer = () => {
   <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
 
     <p className="text-gray-500 text-sm">
-        ©️ 2025 MiladiCode. All rights reserved.
+        ©️ 2025 Gopika. All rights reserved.
     </p>
 
     <div className="flex space-x-6 mt-4 md:mt-0">
